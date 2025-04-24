@@ -109,6 +109,10 @@ async function submitDocBasedForm(form, captcha) {
     if (response.ok) {
       submitSuccess(response, form);
     } else {
+      const headers = response.headers;
+      headers.forEach((value, key) => {
+        console.log(`${key}: ${value}`);
+      });
       const error = await response.text();
       throw new Error(error);
     }
