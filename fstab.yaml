@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1Eo6VV292-NIvw7oXhORYfXTolCvG6W0p?usp=sharing
+  /:
+    url: https://author-p107005-e259333-cmstg.adobeaemcloud.com/bin/franklin.delivery/deepprakash345/errorui/main
+    type: "markup"
+    suffix: ".html"
