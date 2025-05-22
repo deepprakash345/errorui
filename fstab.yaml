@@ -1,5 +1,2 @@
 mountpoints:
-  /:
-    url: https://author-p107005-e259333-cmstg.adobeaemcloud.com/bin/franklin.delivery/deepprakash345/errorui/main
-    type: "markup"
-    suffix: ".html"
+  /: https://da.live/sheet#/aem-sandbox/block-collection/universal-editor
