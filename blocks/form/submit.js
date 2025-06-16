@@ -109,6 +109,7 @@ async function submitDocBasedForm(form, captcha) {
     if (response.ok) {
       submitSuccess(response, form);
     } else {
+      // eslint-disable-next-line
       const headers = response.headers;
       headers.forEach((value, key) => {
         console.log(`${key}: ${value}`);
